@@ -27,3 +27,48 @@ h1 {
 a {
   color: var(--accent);
 }
+
+--------------------------------------------------------
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+}
+
+.nav-logo {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  color: var(--accent-dim);
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  color: var(--accent);
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
