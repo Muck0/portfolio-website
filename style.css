@@ -1,0 +1,29 @@
+:root {
+  --bg: #040705;
+  --surface: #0A100C;
+  --line: #14301F;
+  --accent: #00FF9C;
+  --accent-dim: #3F8F6B;
+  --text: #D6FFE9;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  line-height: 1.6;
+}
+
+h1 {
+  color: var(--accent);
+}
+
+a {
+  color: var(--accent);
+}
